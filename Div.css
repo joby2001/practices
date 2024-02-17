@@ -1,0 +1,29 @@
+.outer{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(23, 133, 133);
+}
+.header{
+    width: 100%;
+    height:20%;
+    background-color: blue;
+}
+.content{
+    background-color: blueviolet;
+
+}
+.left-section{
+    width: 20%;
+    height: 70%;
+    background-color: brown;
+    float: left;
+}
+.right-section{
+    width: 80%;
+    height: 70%;
+    background-color:cyan;
+    float: left;
+}
+body{
+    margin: 0;
+}

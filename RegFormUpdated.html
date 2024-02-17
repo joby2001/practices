@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration form</title> 
+</head>
+<body>
+    <h2 align="center"><u>User registration</u></h2>
+    <form>
+        <label for="fname">First name: </label>
+        <input type="text" name="fname" placeholder="First name" required><br>
+        <label for="lname">Last name:</label>
+        <input type="text" name="lname" placeholder="Last name" required><br>
+        <label for="dep">Department: </label>
+        <select id="dep">
+            <option value="Student">Student</option>
+            <option value="Employee">Employee</option>
+            <option value="Retired">Retired</option>
+        </select><br>
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="Other"> Other<br>
+        <PH for="ph">Ph: </PH>
+        <input type="text" value="+91" placeholder="+91">
+        <input type="tel" name="ph" ><br>
+        <lable for="address">Address: </lable>
+        <textarea placeholder="Enter the address here.." name="address"></textarea>
+        <br><label>Id card: </label><input type="file">
+        <br><label>Email: </label><input type="email"><br>
+        <label>Password: </label><input type="password">
+        <br><input type="submit">
+    </form>
+
+</body>
+</html>
